@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <title>Furniture online shopping |login  </title>
+    <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    
+    <style></style>
+    <script>
+        function login() {
+            var uname = document.getElementById("name").value;
+            var pwd = document.getElementById("password").value;
+
+            if (uname == '') {
+                alert("please enter user name.");
+            }
+            else if (pwd == '') {
+                alert("enter the password");
+            }
+            else if (uname = "admin" && pwd == "0000") {
+                alert("welcome to our site");
+                return false;
+
+            }
+            else {
+                alert("wrong password or user name");
+            }
+        }
+    </script>
+</head>
+<body>
+
+    <div class="loginbox">
+        <!-- enter dta inside login box-->
+       
+        <form>
+            <h2>login</h2><br /><br />
+            <input type="text" size="40" placeholder="User Name" /> <br /><br /><br /><br />
+
+            <input type="password" size="40" placeholder="password" /> <br /><br /> <br /><br /><br />
+
+            <!--<button onclick="validate()">
+            Submit  </button><br /><br />
+
+                <input type="submit" value="sign in" onclick=" validate()"/>-->
+            <button onclick="login()"><a href="home.html" class="home">log in</a></button>
+
+
+            <a class="signup" href="register.html">   create new account</a>
+
+        </form>
+                
+    <!-- enter logo image inside login box-->
+    <img src="photos/avatar1.png" class="avatar" />
+
+
+
+
+</div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+
+                    <h1>Furniture  <img src="photos/logosofa.png" style="width: 60px;"> <br>online shopping</h1>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="home.html" class="home"><i class="fa fa-home"></i>home</a></li>
+                        <li>
+                            <a href="">products</a>
+                            <div class="sub-menu-1">
+                                <ul>
+                                    <li><a href="living.html">-living rooms</a></li>
+                                    <li><a href="bedroom.html">-bed rooms</a></li>
+                                    <li><a href="kitchen.html">-kitchens</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="">about us</a></li>
+                        <li><a href="admin.html">admin page</a></li>
+                        <li> <a href=""><i class="fa fa-shopping-basket"></i></a></li>
+
+                    </ul>
+                    <a class="account" href="login.html">login <i class="fa fa-sign-out-alt"></i> |</a><a class="account" href="register.html"> register </a><i class="fa fa-sign-out-alt"></i>
+
+                </nav>
+
+            </div>
+        </div>
+
+        
+    
+
+
+
+</body>
+</html>

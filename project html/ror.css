@@ -1,0 +1,79 @@
+*{-webkit-box-sizing: border-box}
+
+
+body {
+    background: url("https://images.wallpaperscraft.com/image/furniture_table_interior_design_style_green_70010_1920x1080.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+    font-family: Arial
+}
+
+form {
+    width: 500px;
+    height: 630px;
+    border: 7px solid rgb(111 141 93);
+    border-radius: 20px;
+    margin: 50px auto
+}
+h2 {
+    color: rgb(17 74 15);
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center
+}
+input[type="text"], [type="password"], [type="email"] {
+    width: 200px;
+    height: 40px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    border: 2px solid rgb(14 109 38);
+    border-radius: 10px;
+    outline: none;
+    background-color: rgb(53 186 44);
+}
+input [type="checkbox"] {
+    width: 150px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border: 2px solid rgb(17 144 46);
+    border-radius: 10px;
+    outline: none;
+}
+input[type="submit"] {
+    width: 130px;
+    height: 27px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border: 2px solid rgb(14 109 38);
+    border-radius: 10px;
+    outline: none;
+    color: rgb(0 17 1 / 0.95);
+    font-size: 20px;
+    background-color: rgb(53 186 44);
+}
+button {
+    width: 130px;
+    height: 27px;
+    margin-bottom: 10px;
+    margin-left: 350px;
+    background: transparent;
+    color: rgb(17 74 15);
+    font-size: 20px;
+    background-color: rgb(111 141 93);
+}
+
+input::-webkit-input-placeholder {
+    color: rgb(17 74 15);
+}
+
+
+
+
+
+
+
+
+
+
+

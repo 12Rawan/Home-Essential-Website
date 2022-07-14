@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.header {
+    background: radial-gradient(white,rgb(118, 167, 164));
+}
+
+.logo, .account {
+    color: rgb(5, 69, 71);
+}
+
+
+/*****/
+
+.navbar {
+    display: inline;
+    align-items: center;
+    padding: 20px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li {
+    font-size: larger;
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+
+/****/
+li i {
+    font-size: 30px;
+    color: rgb(5, 69, 71);
+    transition: color 0.5s;
+}
+
+a {
+    text-decoration: none;
+    color: cadetblue;
+    transition: color 0.5s;
+}
+
+    a:hover, i:hover {
+        color: rgb(69, 142, 167);
+    }
+
+
+
+
+/*****/
+.sub-menu-1 {
+    position: absolute;
+    left: -15px;
+    top: 100%;
+    /* background-color: rgba(255, 255, 255, 0.527);*/
+    border-radius: 10px;
+}
+
+    .sub-menu-1 ul {
+        display: none;
+        text-align: left;
+        margin: 10px;
+    }
+
+    .sub-menu-1 li {
+        width: 150px;
+        border-bottom: 1px solid rgb(69, 142, 167);
+        font-size: large;
+    }
+
+nav ul li:hover .sub-menu-1 ul {
+    display: block;
+}
+
+/*****/
+
+p {
+    color: rgb(66, 117, 119);
+}
+
+
+.row {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+    .col-2 img {
+        max-width: 100%;
+        padding: 50px 0;
+    }
+
+    .col-2 h1 {
+        font: size 50px;
+        line-height: 40px;
+        margin: 10px 0;
+        color: rgb(5, 69, 71);
+    }
+
+.btn {
+    display: inline-block;
+    background: rgb(5, 69, 71);
+    color: white;
+    padding: 8px 30px;
+    margin: 10px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+
+    .btn:hover {
+        background: rgb(130, 182, 199);
+    }
+
+
+/*****/
+.card {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(photos/modern-living-room-interior-with-sofa-green-plants-lamp-table-dark-wall-background_41470-1528.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card1 {
+    margin-left: 30%;
+    background-image: url(photos/modern-living-room-interior-with-sofa-green-plants-lamp-table-dark-wall-background_41470-1528.jpg);
+}
+
+.card2 {
+    background-image: url(photos/bedroom.jfif);
+}
+
+.card3 {
+    background-image: url(photos/kitchen.jfif)
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/*****/
